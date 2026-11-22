@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Мой сайт — создан через GitHub Pages">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#top">Latkovsky<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">О себе</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="greeting">Привет, меня зовут Вадим 👋</p>
+        <h1>Я создаю <span class="accent">веб-сайты</span><br>и не только</h1>
+        <p class="subtitle">Это мой сайт, размещённый на GitHub Pages. Здесь я рассказываю о себе и своих проектах.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+          <a class="btn btn-ghost" href="https://github.com/Latkovsky" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">О себе</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">💻</div>
+            <h3>Разработка</h3>
+            <p>Веб-разработка, мобильные приложения и игры. Люблю превращать идеи в работающий продукт.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🚀</div>
+            <h3>Проекты</h3>
+            <p>Открытый исходный код и свои проекты — всегда есть чем поделиться и что показать.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🌱</div>
+            <h3>Рост</h3>
+            <p>Постоянно учусь новому и совершенствую свои навыки.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">Проекты</h2>
+        <div class="projects-grid">
+          <a class="project-card" href="https://github.com/Latkovsky/FOXrezka" target="_blank" rel="noopener">
+            <span class="project-tag">Android</span>
+            <h3>FOXrezka</h3>
+            <p>Приложение для поиска и просмотра фильмов и сериалов.</p>
+            <span class="project-link">Открыть репозиторий →</span>
+          </a>
+          <a class="project-card" href="https://github.com/Latkovsky" target="_blank" rel="noopener">
+            <span class="project-tag">GitHub</span>
+            <h3>Все проекты</h3>
+            <p>Больше работ и репозиториев на моей странице GitHub.</p>
+            <span class="project-link">Перейти →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <h2 class="section-title">Связаться</h2>
+        <p class="contact-text">Есть идея или вопрос? Напиши мне — буду рад ответить.</p>
+        <a class="btn btn-primary" href="https://github.com/Latkovsky" target="_blank" rel="noopener">Написать в GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Latkovsky. Сделано с ❤️ и размещено на GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
